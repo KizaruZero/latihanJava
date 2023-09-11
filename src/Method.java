@@ -35,7 +35,7 @@ public class Method {
             case "/":
                 return value1 / value2;
             default:
-                return 0;
+                return 0;  // note return hanya digunakan untuk mehtod
         }
     }
 
