@@ -496,7 +496,13 @@ public class latJava {
         Dan didalam block method,untuk menghasilkan nilai tersebut kita harus menggunakan kata kunci return lalu diikuti dengan data yang sessuai dengan tipe data yang sudah kita deklarasikan di method.
         di Java kita hanya bisa menghasilkan 1 data sebuah ,ethod,tidak bisa lebih dari satu
         */
-        
+        /* Method Variable Argument
+        Kadang kjita butuh mengirim data ke method sejumlah data yang tidak pasti
+        Biasanya agar bisa seperti ini kita akan menggunakan Array sebagai paramater di Method tersebut.
+        Namun di Java kita bisa menggunakan variable argument,untuk mengirim data yang berisi jumlah tak tentu,bisa nol atau lebih.
+        Parameter dengan tipe data variable argument,hanya bisa ditempatkan di posisi akhir parameter.
+         */
+
 
     }
 }
