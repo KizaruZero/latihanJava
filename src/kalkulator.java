@@ -15,6 +15,7 @@ public class kalkulator {
             case "-" -> value1 - value2;
             case "*" -> value1 * value2;
             case "/" -> value1 / value2;
+            case "%" -> value1 % value2;
             default -> {
                 System.out.println("Operasi tidak valid");
                 yield 0.0;
