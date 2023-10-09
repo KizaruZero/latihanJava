@@ -61,5 +61,21 @@ public class loopingBersarang {
             }
             System.out.print("\n");
         }
+        System.out.println(" ");
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if ((i + j) < 4) {
+                    System.out.print("  ");
+                } else if ((i + j) > 12) {
+                    System.out.print("  ");
+                } else if ((i - j) >= 5) {
+                    System.out.print("  ");
+                } else if ((j - i) >= 5) {
+                    System.out.print("  ");
+                } else
+                    System.out.print("* ");
+            }
+            System.out.print('\n');
+        }
     }
 }
