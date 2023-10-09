@@ -1,12 +1,16 @@
+import java.util.Scanner;
+
 public class Method {
     public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
         //jadi kita tidak bisa membuat method didalam main method,harus diluar
         panggilAku();
         halloSay("Hutao", "Ardya");
         System.out.println(hitung(5, 10));
         System.out.println(hitung1(100, "+", 200));
         System.out.println(hitung1(50, "-", 10));
-        System.out.println(hitung1(75, "/", 3));
+        System.out.println(hitung1(userInput.nextInt(), userInput.next(), userInput.nextInt()));
+        System.out.println(hitung1(userInput.nextInt(), userInput.next(), userInput.nextInt()));
         double akar = Math.sqrt(25);
         System.out.println(akar);
 
@@ -27,6 +31,10 @@ public class Method {
     }
 
     static int hitung1(int value1, String operasi, int value2) {
+        Scanner userIpt = new Scanner(System.in);
+        value1 = userIpt.nextInt();
+        value2 = userIpt.nextInt();
+
         switch (operasi) {
             case "+":
                 return value1 + value2;

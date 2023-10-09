@@ -252,7 +252,7 @@ public class latJava {
         System.out.println(value1 > value2);
         System.out.println(value1 < value2);
         System.out.println(value1 >= value2);
-        System.out.println(value1 < +value2);
+        System.out.println(value1 <= value2);
         System.out.println(value1 == value2);
         System.out.println(value1 != value2);
         /* Operasi Boolean. [1.54]
