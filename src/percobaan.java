@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class percobaan {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        int value1, value2, hasil;
-        String operasi;
+        int angka1, angka2, hasil;
+        String operasii;
         System.out.println("PERCOBAAN KALKULATOR");
         System.out.print("Masukan angka pertama = ");
-        value1 = userInput.nextInt();
+        angka1 = userInput.nextInt();
         System.out.print("Masukan Operasi = ");
-        operasi = userInput.next();
+        operasii = userInput.next();
         System.out.print("Masukan angka kedua =  ");
-        value2 = userInput.nextInt();
-        hasil = hitung1(value1, operasi, value2);
+        angka2 = userInput.nextInt();
+        hasil = hitung1(angka1, operasii, angka2);
         System.out.println("Hasil perhitungan = " + hasil);
 
 
